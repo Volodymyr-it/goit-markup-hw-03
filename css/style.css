@@ -3,7 +3,21 @@
   text-decoration: none;
   font-family: "roboto", sans-serif;
 }
+/* #E5E5E5; білий колір фону*/
+/* #F5F4FA; темніший білий вторинний колір фону */
+/* #2F303A; сірий фон футтера*/
+/* #757575; сірий колір основного тексту*/
+/* #212121; чорний колір заголовків та підзаголовків*/
+/* #2196F3; блакитний колір акцетів*/
+
 :root {
+  --main-background-color: #e5e5e5;
+  --sec-background-color: #f5f4fa;
+  --darck-bacrkground-color: #2f303a;
+
+  --accent-color: #2196f3;
+  --main-text-color: #757575;
+  --title-text-color: #212121;
 }
 
 header {
