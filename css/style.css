@@ -11,15 +11,30 @@
 /* #2196F3; блакитний колір акцетів*/
 
 :root {
+  --header-background-color: #ffffff;
   --main-background-color: #e5e5e5;
   --sec-background-color: #f5f4fa;
   --darck-bacrkground-color: #2f303a;
 
   --accent-color: #2196f3;
+
   --main-text-color: #757575;
   --title-text-color: #212121;
+  --footer-tel-color: rgba(255, 255, 255, 0.6);
 }
-
-header {
-  background-color: #ffffff;
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
+.logo {
+  color: var(--accent-color);
+  font-family: ;
+}
+/* header */
+.header {
+  background-color: var(--header-background-color);
+}
+.header-links {
+  color: var(--title-text-color);
 }
