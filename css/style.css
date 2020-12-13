@@ -11,8 +11,8 @@
 /* #2196F3; блакитний колір акцетів*/
 
 :root {
-  --header-background-color: #ffffff;
-  --main-background-color: #e5e5e5;
+  --header-background-color: #e5e5e5;
+  --main-background-color: #ffffff;
   --sec-background-color: #f5f4fa;
   --darck-bacrkground-color: #2f303a;
 
@@ -42,11 +42,33 @@ body {
 }
 .header-links {
   color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-links a {
   color: inherit;
 }
-.header-links:focus,
-.header-links a:hover {
+.header-links li:focus,
+.header-links li:hover {
   color: var(--accent-color);
+}
+/* portfolio */
+.portfolio-filter button {
+  color: inherit;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.portfolio-filter button:focus,
+.portfolio-filter button:hover {
+  background-color: var(--accent-color);
+  color: var(--main-background-color);
+}
+/* portfolio-items */
+.portfolio-items a {
+  color: inherit;
 }
