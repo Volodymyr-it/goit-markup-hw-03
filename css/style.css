@@ -11,8 +11,8 @@
 /* #2196F3; блакитний колір акцетів*/
 
 :root {
-  --header-background-color: #e5e5e5;
-  --main-background-color: #ffffff;
+  --header-background-color: #ffffff;
+  --main-background-color: #e5e5e5;
   --sec-background-color: #f5f4fa;
   --darck-bacrkground-color: #2f303a;
 
@@ -69,7 +69,9 @@ header {
 }
 
 /* portfolio */
-
+.hero {
+  background-color: var(--header-background-color);
+}
 .portfolio-filter button {
   color: inherit;
   color: var(--title-text-color);
