@@ -24,11 +24,16 @@
 }
 a {
   text-decoration: none;
+  list-style: none;
 }
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--main-background-color);
   color: var(--main-text-color);
+}
+/* logo */
+проблемма !!!! .studio {
+  color: var(--title-text-color);
 }
 .logo {
   color: var(--accent-color);
@@ -37,11 +42,11 @@ body {
   line-height: 1.2;
 }
 /* header */
-.header {
+header {
   background-color: var(--header-background-color);
 }
 .header-links {
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,7 +59,16 @@ body {
 .header-links li:hover {
   color: var(--accent-color);
 }
+/* fedback */
+.header-links .header-fedback {
+  color: var(--main-text-color);
+}
+.header-links .header-fedback:hover {
+  color: var(--accent-color);
+}
+
 /* portfolio */
+
 .portfolio-filter button {
   color: inherit;
   color: var(--title-text-color);
@@ -69,6 +83,21 @@ body {
   color: var(--main-background-color);
 }
 /* portfolio-items */
-.portfolio-items a {
-  color: inherit;
+.portfolio-items h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.portfolio-items p {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+/* footer */
+footer {
+  background-color: var(--darck-bacrkground-color);
 }
