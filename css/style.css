@@ -32,9 +32,10 @@ body {
   color: var(--main-text-color);
 }
 /* logo */
-проблемма !!!! .studio {
+.studio {
   color: var(--title-text-color);
 }
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -100,4 +101,83 @@ header {
 /* footer */
 footer {
   background-color: var(--darck-bacrkground-color);
+}
+.logo-color {
+  color: var(--main-background-color);
+}
+.footer-fedback a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+address {
+  color: var(--main-background-color);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* !!!index!!!*/
+
+/* main section */
+.main-section {
+  background-color: var(--darck-bacrkground-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.main-section h1 {
+  color: var(--main-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.main-section button {
+  background-color: var(--accent-color);
+  color: var(--main-background-color);
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.main-discription,
+.main-images {
+  background-color: var(--header-background-color);
+}
+.main-discription h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.main-discription p {
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.main-images,
+.team-images h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* team */
+.team-images h3 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team-images p {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
