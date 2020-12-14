@@ -11,10 +11,10 @@
 /* #2196F3; блакитний колір акцетів*/
 
 :root {
-  --header-background-color: #ffffff;
+  --primary-white-color: #ffffff;
   --main-background-color: #e5e5e5;
-  --sec-background-color: #f5f4fa;
-  --darck-bacrkground-color: #2f303a;
+  --second-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
 
   --accent-color: #2196f3;
 
@@ -28,7 +28,6 @@ a {
 }
 body {
   font-family: Roboto, sans-serif;
-  background-color: var(--main-background-color);
   color: var(--main-text-color);
 }
 /* logo */
@@ -44,7 +43,7 @@ body {
 }
 /* header */
 header {
-  background-color: var(--header-background-color);
+  background-color: var(--primary-white-color);
 }
 .header-links {
   color: var(--title-text-color);
@@ -56,8 +55,8 @@ header {
 .header-links a {
   color: inherit;
 }
-.header-links li:focus,
-.header-links li:hover {
+.header-links a:focus,
+.header-links a:hover {
   color: var(--accent-color);
 }
 /* fedback */
@@ -70,10 +69,9 @@ header {
 
 /* portfolio */
 .hero {
-  background-color: var(--header-background-color);
+  background-color: var(--primary-white-color);
 }
 .portfolio-filter button {
-  color: inherit;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -83,7 +81,7 @@ header {
 .portfolio-filter button:focus,
 .portfolio-filter button:hover {
   background-color: var(--accent-color);
-  color: var(--main-background-color);
+  color: var(--primary-white-color);
 }
 /* portfolio-items */
 .portfolio-items h3 {
@@ -102,7 +100,7 @@ header {
 }
 /* footer */
 footer {
-  background-color: var(--darck-bacrkground-color);
+  background-color: var(--dark-background-color);
 }
 .logo-color {
   color: var(--main-background-color);
@@ -115,6 +113,8 @@ footer {
 }
 address {
   color: var(--main-background-color);
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -123,12 +123,12 @@ address {
 
 /* main section */
 .main-section {
-  background-color: var(--darck-bacrkground-color);
+  background-color: var(--dark-background-color);
   text-align: center;
   letter-spacing: 0.06em;
 }
 .main-section h1 {
-  color: var(--header-background-color);
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -145,7 +145,7 @@ address {
 }
 .main-discription,
 .main-images {
-  background-color: var(--header-background-color);
+  background-color: var(--primary-white-color);
 }
 .main-discription h3 {
   color: var(--title-text-color);
@@ -161,7 +161,9 @@ address {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.main-images,
+.team-images {
+  background-color: var(--second-background-color);
+}
 .team-images h2 {
   color: var(--title-text-color);
   font-weight: 700;
