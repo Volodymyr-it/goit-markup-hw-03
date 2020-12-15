@@ -11,7 +11,7 @@
 /* #2196F3; блакитний колір акцетів*/
 
 :root {
-  - 
+  --primary-white-color: #ffffff;
   --main-background-color: #e5e5e5;
   --second-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
@@ -30,11 +30,11 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
 }
-/* logo */
+/*header logo */
 .studio {
   color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
 }
-
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -102,8 +102,10 @@ header {
 footer {
   background-color: var(--dark-background-color);
 }
+/* footer logo */
 .logo-color {
   color: var(--main-background-color);
+  font-family: Raleway, sans-serif;
 }
 .footer-fedback a {
   color: rgba(255, 255, 255, 0.6);
