@@ -104,7 +104,7 @@ footer {
 }
 /* footer logo */
 .logo-color {
-  color: var(--main-background-color);
+  color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
 }
 .footer-fedback a {
