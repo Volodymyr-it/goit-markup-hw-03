@@ -136,9 +136,10 @@ address {
   line-height: 1.4;
   text-transform: uppercase;
 }
+/* order a service */
 .main-section button {
   background-color: var(--accent-color);
-  color: var(--main-background-color);
+  color: var(--primary-white-color);
   font-size: 16px;
   line-height: 1.8;
   align-items: center;
