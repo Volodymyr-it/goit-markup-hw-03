@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
@@ -16,37 +17,39 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
-  <body>
-    <a class="logo" href="./">Web<span class="studio">Studio</span></a>
+  <body> 
+    <div class=container>   
     <section>
-      <header>
-        <nav>
-          <ul class="header-links">
-            <li><a href="./index.html">Студия</a></li>
-            <li><a href="./portfolio.html">Портфолио</a></li>
-            <li><a href="#footer-ancor">Контакты</a></li>
-            <!-- fedback -->
-            <li>
-              <a
-                class="header-fedback"
-                href="mailto:info@devstudio.com"
-                lang="en"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="header-fedback" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </section>
+     <section>
+        <header>
+          <nav class="header-nav">
+            <a class="logo" href="./">Web<span class="studio">Studio</span></a>
+            <ul class="header-links">
+              <li class="nav-item"><a href="./index.html">Студия</a></li>
+              <li class="nav-item"><a href="./portfolio.html">Портфолио</a></li>
+              <li class="nav-item"><a href="#footer-ancor">Контакты</a></li>
+              <!-- fedback -->
+              <li>
+                <a
+                  class="header-fedback"
+                  href="mailto:info@devstudio.com"
+                  lang="en"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="header-fedback" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </section>
 
     <main class="hero">
-      <h1>Портфолио</h1>
-      <section class="portfolio-filter">
+      <section class="portfolio-filter"></section>
+      <h1 class="invisible">Портфолио</h1>
         <ul>
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
@@ -146,7 +149,6 @@
       </section>
     </main>
 
-   <section>
       <footer>
         <!-- logo -->
         <a class="logo" href="./">Web<span class="logo-color">Studio</span></a>
@@ -157,5 +159,6 @@
           <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </footer>
-    </section>
+      </div>
+    </body>
 </html>

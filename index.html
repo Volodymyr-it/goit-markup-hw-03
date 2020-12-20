@@ -17,136 +17,144 @@
   </head>
 
   <body>
-    <a class="logo" href="./">Web<span class="studio">Studio</span></a>
-    <section>
-      <header>
-        <nav>
-          <ul class="header-links">
-            <li><a href="./index.html">Студия</a></li>
-            <li><a href="./portfolio.html">Портфолио</a></li>
-            <li><a href="#footer-ancor">Контакты</a></li>
-            <!-- fedback -->
+    <div class="container">
+      <section>
+        <header>
+          <nav class="header-nav">
+            <a class="logo" href="./">Web<span class="studio">Studio</span></a>
+            <ul class="header-links">
+              <li class="nav-item"><a href="./index.html">Студия</a></li>
+              <li class="nav-item"><a href="./portfolio.html">Портфолио</a></li>
+              <li class="nav-item"><a href="#footer-ancor">Контакты</a></li>
+              <!-- fedback -->
+              <li>
+                <a
+                  class="header-fedback"
+                  href="mailto:info@devstudio.com"
+                  lang="en"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="header-fedback" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </section>
+    </div>
+    <!-- main -->
+      <main> <div class="container">
+        <section class="main-section">
+            <h1>
+              Эффективные решения <br />
+              для вашего бизнеса
+            </h1>
+            <form>
+              <button class="order-button">Заказать услугу</button>
+            </form>
+        </section>
+      </div>
+
+
+        <div class="container">
+        <section class="main-discription">
+          <h2 class="invisible">Наши приимущества</h2>
+          <ul>
             <li>
-              <a
-                class="header-fedback"
-                href="mailto:info@devstudio.com"
-                lang="en"
-                >info@devstudio.com</a
-              >
+              <h3>Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
             </li>
             <li>
-              <a class="header-fedback" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+              <h3>Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3>Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3>Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
             </li>
           </ul>
-        </nav>
-      </header>
-    </section>
-    <main>
-      <section class="main-section">
-        <div>
-          <h1>
-            Эффективные решения <br />
-            для вашего бизнеса
-          </h1>
-          <form>
-            <button>Заказать услугу</button>
-          </form>
+        </section>
+      </div>
+
+        <!-- work  -->
+        <div class="container">
+        <section class="main-images">
+          <h2 class="invisible">Чем мы занимаемся</h2>
+          <ul>
+            <li><img src="./images/img.png" alt="пишем код" width="370" /></li>
+            <li>
+              <img src="./images/img1.png" alt="создаём макет" width="370" />
+            </li>
+            <li>
+              <img src="./images/img2.png" alt="рисуем дизайн" width="370" />
+            </li>
+          </ul>
+        </section>
         </div>
-      </section>
-      <section class="main-discription">
-        <h2>Наши приимущества</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <!-- work  -->
-      <section class="main-images">
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li><img src="./images/img.png" alt="пишем код" width="370" /></li>
-          <li>
-            <img src="./images/img1.png" alt="создаём макет" width="370" />
-          </li>
-          <li>
-            <img src="./images/img2.png" alt="рисуем дизайн" width="370" />
-          </li>
-        </ul>
-      </section>
-
-      <!-- team  -->
-      <section class="team-images">
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/team/ihor_demianenko.jpg"
-              width="270"
-              alt="сотрудник"
-            />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/team/michail_ermacov.jpg"
-              width="270"
-              alt="сотрудник"
-            />
-            <h3>Михаил Ермаков</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/team/nikolay_tarasov.jpg"
-              width="270"
-              alt="сотрудник"
-            />
-            <h3>Николай Тарасов</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/team/olga_repina.jpg"
-              width="270"
-              alt="сотрудник"
-            />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <section>
+        <!-- team  -->
+        <div class="container">
+        <section class="team-images">
+          <h2>Наша команда</h2>
+          <ul>
+            <li>
+              <img
+                src="./images/team/ihor_demianenko.jpg"
+                width="270"
+                alt="сотрудник"
+              />
+              <h3>Игорь Демьяненко</h3>
+              <p>Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./images/team/michail_ermacov.jpg"
+                width="270"
+                alt="сотрудник"
+              />
+              <h3>Михаил Ермаков</h3>
+              <p>Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./images/team/nikolay_tarasov.jpg"
+                width="270"
+                alt="сотрудник"
+              />
+              <h3>Николай Тарасов</h3>
+              <p>Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./images/team/olga_repina.jpg"
+                width="270"
+                alt="сотрудник"
+              />
+              <h3>Ольга Репина</h3>
+              <p>Frontend Developer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      </main>
       <footer>
         <a class="logo" href="./">Web<span class="logo-color">Studio</span></a>
         <ul class="footer-fedback">
@@ -155,6 +163,6 @@
           <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </footer>
-    </section>
+    </div>
   </body>
 </html>
