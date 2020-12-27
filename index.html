@@ -17,8 +17,8 @@
   </head>
 
   <body>
-    <div class="container">
       <section>
+    <div class="container">
         <header>
           <nav class="header-nav">
             <a class="logo" href="./">Web<span class="studio">Studio</span></a>
@@ -26,8 +26,10 @@
               <li class="nav-item"><a href="./index.html">Студия</a></li>
               <li class="nav-item"><a href="./portfolio.html">Портфолио</a></li>
               <li class="nav-item"><a href="#footer-ancor">Контакты</a></li>
+            </ul>
               <!-- fedback -->
-              <li>
+              <ul class="header-contacts">
+                <li>
                 <a
                   class="header-fedback"
                   href="mailto:info@devstudio.com"
@@ -43,79 +45,82 @@
             </ul>
           </nav>
         </header>
-      </section>
     </div>
+      </section>
     <!-- main -->
-      <main> <div class="container">
+      <main>
         <section class="main-section">
+           <div class="container">
             <h1>
-              Эффективные решения <br />
+              Эффективные решения 
               для вашего бизнеса
             </h1>
             <form>
               <button class="order-button">Заказать услугу</button>
             </form>
+          </div>
         </section>
-      </div>
-
-
-        <div class="container">
+ 
         <section class="main-discription">
+           <div class="container">
           <h2 class="invisible">Наши приимущества</h2>
-          <ul>
-            <li>
-              <h3>Внимание к деталям</h3>
+          <ul class="advantages">
+            <li class="item">
+              <h3 class="advantages-title">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
-              <h3>Пунктуальность</h3>
+            <li class="item">
+              <h3 class="advantages-title">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
-              <h3>Планирование</h3>
+            <li class="item">
+              <h3 class="advantages-title">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
-              <h3>Современные технологии</h3>
+            <li class="item">
+              <h3 class="advantages-title">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
             </li>
           </ul>
+           </div>
         </section>
-      </div>
 
         <!-- work  -->
-        <div class="container">
+
         <section class="main-images">
-          <h2 class="invisible">Чем мы занимаемся</h2>
-          <ul>
-            <li><img src="./images/img.png" alt="пишем код" width="370" /></li>
-            <li>
+           <div class="container">
+          <h2>Чем мы занимаемся</h2>
+          <ul class="work-images">
+            <li class="item"><img src="./images/img.png" alt="пишем код" width="370" /></li>
+            <li class="item">
               <img src="./images/img1.png" alt="создаём макет" width="370" />
             </li>
-            <li>
+            <li class="item">
               <img src="./images/img2.png" alt="рисуем дизайн" width="370" />
             </li>
           </ul>
-        </section>
         </div>
+        </section>
+
         <!-- team  -->
-        <div class="container">
+
         <section class="team-images">
-          <h2>Наша команда</h2>
-          <ul>
-            <li>
+           <div class="container">
+          <h2 >Наша команда</h2>
+          <ul class="team-units">
+            <li class="team-item">
               <img
                 src="./images/team/ihor_demianenko.jpg"
                 width="270"
@@ -124,7 +129,7 @@
               <h3>Игорь Демьяненко</h3>
               <p>Product Designer</p>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/team/michail_ermacov.jpg"
                 width="270"
@@ -133,7 +138,7 @@
               <h3>Михаил Ермаков</h3>
               <p>Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/team/nikolay_tarasov.jpg"
                 width="270"
@@ -142,7 +147,7 @@
               <h3>Николай Тарасов</h3>
               <p>Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-item">
               <img
                 src="./images/team/olga_repina.jpg"
                 width="270"
@@ -152,10 +157,12 @@
               <p>Frontend Developer</p>
             </li>
           </ul>
+        </div>
         </section>
-      </div>
+
       </main>
       <footer>
+         <div class="container">
         <a class="logo" href="./">Web<span class="logo-color">Studio</span></a>
         <ul class="footer-fedback">
           <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
@@ -163,6 +170,6 @@
           <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </footer>
-    </div>
+         </div>
   </body>
 </html>

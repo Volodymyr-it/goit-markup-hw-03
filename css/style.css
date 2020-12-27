@@ -26,7 +26,8 @@
 /* common */
 .container {
   width: 1170px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
 }
 h1,
@@ -82,18 +83,18 @@ header {
   margin-right: 93px;
 }
 .header-nav,
-.header-links {
+.header-links,
+.header-contacts {
   display: flex;
   align-items: center;
 }
 
 .header-nav .nav-item .header-fedback {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.header-links .header-fedback + .header-fedback {
+.header-fedback + .header-fedback {
   margin-left: 50px;
 }
 .header-fedback {
@@ -111,12 +112,18 @@ header {
   margin-right: 50px;
 }
 
-.header-links a {
+.header-links a,
+.header-contacts a {
   color: inherit;
 }
 .header-links a:focus,
-.header-links a:hover {
+.header-links a:hover,
+.header-contacts a:focus,
+.header-contacts a:hover {
   color: var(--accent-color);
+}
+.header-contacts {
+  margin-left: auto;
 }
 /* fedback */
 .header-fedback {
@@ -188,16 +195,22 @@ address {
 
 /* main section */
 .main-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--dark-background-color);
   text-align: center;
   letter-spacing: 0.06em;
 }
 .main-section h1 {
+  width: 696px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
+  padding: 0;
+  align-items: center;
+  margin: 0 auto;
 }
 /* order a service */
 .main-section button {
@@ -208,6 +221,23 @@ address {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 30px;
+}
+
+/* наши приимущества */
+.advantages {
+  display: flex;
+}
+.advantages .item + .item {
+  margin-left: 30px;
+}
+.main-discription {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work-images {
+  display: flex;
 }
 .main-discription,
 .main-images {
@@ -227,6 +257,28 @@ address {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.advantages-title {
+  margin-bottom: 10px;
+}
+
+/* work */
+.main-images {
+  padding-bottom: 94px;
+}
+.main-images h2 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.work-images .item + .item {
+  margin-left: 30px;
+}
+
 .team-images {
   background-color: var(--second-background-color);
 }
@@ -236,6 +288,7 @@ address {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 /* team */
 .team-images h3 {
@@ -250,4 +303,10 @@ address {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.team-units {
+  display: flex;
+}
+.team-units .team-item + .team-item {
+  margin-left: 30px;
 }
