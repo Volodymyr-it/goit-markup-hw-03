@@ -325,5 +325,26 @@ address {
 }
 /* footer */
 .logo {
+  display: inline-block;
   margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footer-fedback .footer-item + .footer-item {
+  margin-top: 9px;
+}
+
+/*  portfolio */
+
+.filter-butons {
+  display: flex;
+  align-items: center;
+  margin-top: 98px;
+  margin-bottom: 50px;
+}
+.filter-butons .button-item + .button-item {
+  margin-left: 9px;
+}
+.galeria-images {
+  display: flex;
+  align-items: center;
 }
