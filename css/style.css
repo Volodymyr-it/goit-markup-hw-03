@@ -79,9 +79,7 @@ button {
 header {
   background-color: var(--primary-white-color);
 }
-.logo {
-  margin-right: 93px;
-}
+
 .header-nav,
 .header-links,
 .header-contacts {
@@ -168,6 +166,11 @@ header {
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* footer */
 footer {
   background-color: var(--dark-background-color);
@@ -324,15 +327,20 @@ address {
   text-align: center;
 }
 /* footer */
-.logo {
+.logo-footer {
   display: inline-block;
-  margin-top: 50px;
   margin-bottom: 20px;
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .footer-fedback .footer-item + .footer-item {
   margin-top: 9px;
 }
-
+footer {
+  padding: 60px 0px;
+}
 /*  portfolio */
 
 .filter-butons {
@@ -340,6 +348,11 @@ address {
   align-items: center;
   margin-top: 98px;
   margin-bottom: 50px;
+  justify-content: center;
+}
+.filter-butons button {
+  padding: 6px 22px;
+  border: 0px;
 }
 .filter-butons .button-item + .button-item {
   margin-left: 9px;
