@@ -99,12 +99,12 @@ header {
   margin-left: auto;
 }
 .header-links {
-  color: var(--title-text-color);
+  padding: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 32px;
+  color: var(--title-text-color);
 }
 .header-links > .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -125,6 +125,11 @@ header {
 }
 /* fedback */
 .header-fedback {
+  font-style: 500;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-left: 50px;
   margin-right: auto;
 }
@@ -152,7 +157,7 @@ footer {
 }
 address {
   color: var(--main-background-color);
-  font-style: normal;
+  font-style: 500;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
@@ -316,7 +321,9 @@ footer {
   padding: 60px 0px;
 }
 /*  portfolio */
-
+.header-portfolio {
+  /* border-bottom: 1px solid #ececec; */
+}
 .filter-butons {
   display: flex;
   align-items: center;
@@ -337,6 +344,7 @@ footer {
 .hero {
   background-color: var(--primary-white-color);
   padding: 94px 0;
+  border-top: 1px solid #ececec;
 }
 .portfolio-filter button {
   color: var(--title-text-color);
